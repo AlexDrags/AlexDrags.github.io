@@ -1,0 +1,140 @@
+body {
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+hr {
+    width: 100px;
+    border: 1px solid grey;
+}
+.container {
+    color: black;
+    background-color: white;
+    max-width: 1440px;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    margin: 25px;
+    color: #000000x;
+}
+.main-theme {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url("Mask Group.jpg") no-repeat center;
+    height: 464px;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+}
+.hotel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.browsers {
+    display: flex;
+    justify-content: space-around
+}
+.browser {
+    margin: 25px;
+}
+
+.grav {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: 900;
+font-size: 23px;
+line-height: 31px;
+}
+.orange {
+    color: orange;
+}
+.grey {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.tickets {
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: content-box;
+    width: 700px;
+    padding: 50px;
+
+}
+
+.ticket p:first-child{
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+.ticket p:last-child{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+button {
+    width: 170px;
+    height: 47px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    vertical-align: center;
+    border-width: 0;
+}
+footer, 
+.down{
+    background-color: #575757;
+}
+.down {
+    display: flex;
+    flex-direction: column;
+}
+footer a,
+footer h2 {
+    color: white;
+}
+.copyrights {
+    display: flex;
+    justify-content: center;
+}
+.copyrights .soc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    background-color: white;
+    margin: 10px;
+
+}
+

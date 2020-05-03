@@ -9,18 +9,22 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
-h1, h2, h3 {
-    text-align: center;
-}
-hr {
-    width: 100px;
-    border: 1px solid grey;
-}
 .container {
     color: black;
     background-color: white;
     max-width: 1440px;
 }
+h1, h2, h3 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+hr {
+    width: 100px;
+    border: 1px solid grey;
+}
+
 .head {
     display: flex;
     flex-direction: column;

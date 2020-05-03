@@ -116,12 +116,12 @@ line-height: 31px;
 button {
     width: 170px;
     height: 47px;
-    color: white;
+    color: #FFFFFF;
     background-color: orange;
     text-align: center;
     vertical-align: center;
     border-width: 0;
-    padding 10px;
+    padding :10px;
 }
 footer, 
 .down{

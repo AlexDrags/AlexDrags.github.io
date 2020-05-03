@@ -64,6 +64,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 }
 .browser {
     margin: 25px;
@@ -83,6 +84,7 @@ line-height: 31px;
     background-color: #F7F7F7;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .tickets {

@@ -156,13 +156,27 @@ footer h2 {
 
 }
 @media all and (orientation: portrait) {
-header,
-main,
-footer,
-.browsers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-    
+    header,
+    main,
+    footer,
+    .browsers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hotel{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 0px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0; 
+    }
+    .main-theme p:last:child {
+        font-size: 9px;
+    }
+}   

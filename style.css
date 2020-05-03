@@ -38,6 +38,9 @@ a {
     margin: 25px;
     color: #000000x;
 }
+a:hover {
+    background-color: grey;
+}
 .main-theme {
     color: white;
     display: flex;

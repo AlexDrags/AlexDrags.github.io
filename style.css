@@ -7,7 +7,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 .container {
     color: black;
@@ -69,7 +69,6 @@ a:hover {
 .browsers {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
@@ -157,3 +156,11 @@ footer h2 {
 
 }
 
+@media screen and (max-width: 320px) {
+header,
+main,
+footer,
+.browsers {
+  flex-wrap: wrap;
+}
+    

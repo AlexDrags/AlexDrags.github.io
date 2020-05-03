@@ -121,6 +121,7 @@ button {
     text-align: center;
     vertical-align: center;
     border-width: 0;
+    padding 10px;
 }
 footer, 
 .down{

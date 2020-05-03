@@ -161,6 +161,9 @@ header,
 main,
 footer,
 .browsers {
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
     

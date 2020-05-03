@@ -189,4 +189,18 @@ footer h2 {
         white-space: pre-wrap;
         font-size: x-small;
     }
+    .ticket p:first-child {
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 31px;
+    }
+    .ticket p:last-child {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    }
 }   

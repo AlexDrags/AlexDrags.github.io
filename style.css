@@ -179,4 +179,14 @@ footer h2 {
     .discr {
         font-size: 9px;
     }
+    .grav {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .small{
+        white-space: pre-wrap;
+        font-size: x-small;
+    }
 }   

@@ -17,9 +17,7 @@ footer {
 h1, h2, h3 {
     text-align: center;
 }
-img {
-    max-width: 100%;
-}
+
 hr {
     width: 100px;
     border: 1px solid grey;

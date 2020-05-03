@@ -89,16 +89,12 @@ line-height: 31px;
 
 .tickets {
     border-radius: 50%;
-    background-color: white;
+    background: url("Rectangle 14.png") no-repeat center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
-    box-sizing: content-box;
     width: 700px;
-    padding: 50px;
-
 }
 
 .ticket p:first-child{
